@@ -6,13 +6,13 @@ using UnityEngine;
 public class Dresseur : MonoBehaviour
 {
     [field : SerializeField]
-    public List<ScriptableObject> pokemon;
+    public List<GameObject> pokemon;
     [field : SerializeField]
-    public List<ScriptableObject> myPokemon;
+    public List<GameObject> myPokemon;
     private int index;
     private int index2;
-    private ScriptableObject inPokemon1;
-    private ScriptableObject inPokemon2;
+    private GameObject inPokemon1;
+    private GameObject inPokemon2;
 
     void Start()
     {
